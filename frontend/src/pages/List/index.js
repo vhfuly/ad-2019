@@ -19,7 +19,7 @@ function List() {
       setFriends(response.data)
       
     } else{
-      setFriends('Sem amigos registrados');
+      setFriends({mesage:'Sem amigos castrados '});
     }
   }
 
@@ -32,22 +32,23 @@ function List() {
     localStorage.setItem('id', friend._id);
   }
 
- 
+  
   
   return (
     <Fragment>
      <Header />
      <div className="Container-list">
       <h2 className="tilte">Amigos</h2>
-      <tr>
+
+          <tr>
           <th>Nome</th>
           <th>Email</th>
           <th></th>
           <th></th>
-      </tr>
-        {friends.map((item, key)=>
+          </tr>
+        {friends.length >= 1 && friends.map((item, key)=>
         
-        
+          
           <tr>
           <td>{item.name}</td>
           <td>{item.email}</td>

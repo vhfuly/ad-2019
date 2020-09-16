@@ -47,7 +47,7 @@ function Register() {
             onChange ={e=> setEmail(e.target.value)}/>
           <button>Registar Amigo</button>
         </form>
-        {error && <p color='red'>Email or Password invalid</p>}
+        {error && <p className='error'>Erro ao registrar verifique se o email já foi registrado</p>}
       </div> 
       <Footer/>
     </Fragment>

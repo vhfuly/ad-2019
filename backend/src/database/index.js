@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 mongoose.connect(
-  'mongodb://localhost:27017/gobarber',
+  'mongodb+srv://amigo:teste@cluster0.xasho.mongodb.net/Friends?retryWrites=true&w=majority',
   {
     useNewUrlParser: true,
     useFindAndModify: true,

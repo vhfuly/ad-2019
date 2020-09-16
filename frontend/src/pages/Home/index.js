@@ -13,12 +13,18 @@ function Home() {
 
   const Draw = async (evt)=>{
     evt.preventDefault();
-    try {
+    try { 
+      const response = await FriendsServices.index();
+      if (response.data.length >= 2) {
+
        await FriendsServices.draw()
       setRedirectToSuccess (true);
+      } else {
+        setError(true);
+      }
     } catch (error) {
       setError(true);
-      console.log(error)
+      
     }
   }
   if (redirectToSuccess){
@@ -44,7 +50,7 @@ function Home() {
         <button onClick={Draw} className="button">  
           Sotear e enviar emails
         </button>
-        {error && <p>Erro ao enviar Emails</p>}
+        {error && <p className='error'>Erro ao enviar Emails</p>}
         
         
        </div>

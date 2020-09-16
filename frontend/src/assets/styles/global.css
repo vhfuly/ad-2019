@@ -20,7 +20,12 @@ textarea{
   font: 500 1.6rem Roboto;
   
 }
-
+p.error{
+  color: red;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
 
 @media(min-width: 700px){
   :root{
