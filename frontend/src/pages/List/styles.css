@@ -1,0 +1,90 @@
+.Container-list{
+  max-width: 940px;
+  margin: auto;
+  height: calc(100vh - 180px);
+  background-color:#F0F0F7 ;
+  padding: 20px;
+
+ 
+}
+
+.Container-list button.delete {
+  
+  background-color: #04BF58;
+  color: #6A6180;
+  border: none;
+  cursor:pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 30px;
+
+  width: 25rem;
+  height: 4rem;
+  font-weight: 700;
+  border-radius: 0.8rem;
+  transition: background-color 0.2s;
+} 
+.Container-list a{
+  
+  background-color: #04BF58;
+  color: #6A6180;
+  border: none;
+  cursor:pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+
+
+  width: 15rem;
+  height: 2.5rem;
+  font-weight: 700;
+  border-radius: 0.8rem;
+  transition: background-color 0.2s;
+} 
+
+.Container-list a:hover{
+  background-color: #04D361;
+}
+.Container-list button.delete{
+  
+  background-color: #c20e1db9;
+  color: #6A6180;
+  border: none;
+  cursor:pointer;
+
+  
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 0;
+  width: 15rem;
+  height: 2.5rem;
+  border-radius: 0.8rem;
+  transition: background-color 0.2s;
+} 
+
+.Container-list button.delete:hover{
+  background-color: #bf0414;
+}
+
+.tilte{
+ display: flex;
+ justify-content: center;
+ margin-top: 20px;
+ margin-bottom: 20px;
+}
+th,td{
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
+tr{
+  display: flex;
+  justify-content: center;
+}

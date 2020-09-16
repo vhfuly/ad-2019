@@ -1,0 +1,24 @@
+
+.Container-Success{
+  max-width: 940px;
+  margin: auto;
+  height: calc(100vh - 180px);
+  background-color:#F0F0F7 ;
+  padding: 20px;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Container-Success p{
+  margin-top: 20px;
+  display: flex;
+  
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.Container-Success img{
+  width: 100px;
+  margin: 20px auto;
+}

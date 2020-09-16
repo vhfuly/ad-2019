@@ -1,0 +1,19 @@
+
+a.home {
+  display: flex;
+  text-decoration: none;
+  justify-content: space-evenly;
+  align-items: center;
+ 
+  margin: auto;
+  height: 120px;
+  background-color:#9871F5 ;
+  
+}
+
+
+
+img.friends{
+  width: 4rem;
+  height: 4rem;
+}
