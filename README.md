@@ -10,7 +10,7 @@
 
 ## Instalação
 
-Você precisará ter o [NodeJS](https://nodejs.org) para a ulilização do backend e para fazer o clone desse repositório.
+Você precisará ter o [NodeJS](https://nodejs.org) instalado na sua maquina para a ulilização do backend e para fazer o clone desse repositório.
 
 comando para clonar o repositório :
 ```sh
@@ -24,10 +24,12 @@ Para executá-la é muito simples, basta rodar os seguintes comandos:
 Na pasts forntend: 
 ```sh
   $ yarn add # para instalar as dependências 
+  $ yarn start # para rodar o frontend
 ```
 Na pasta backend : 
 ```sh
   $ yarn add # para instalar as dependências 
+  $ yarn dev # para rodar o backend
 ```
 No backend utilizei o Mailtrap para a visualização em desenvolvimento dos envios, mas para seus teste será necessario configurar o email localizado no /backend/src/config/mail.js
 ```sh
@@ -42,10 +44,3 @@ No backend utilizei o Mailtrap para a visualização em desenvolvimento dos envi
   },
 }
 ```
-
-
-## Link da aplicação 
-
-No link abaixo é possível ter acesso ao site da aplicação:
-
-[Getkcal](https://getkcaloria.netlify.app/) 

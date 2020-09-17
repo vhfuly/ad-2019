@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 
-const Api = axios.create({baseURL:'http://localhost:3333'})
+const Api = axios.create({baseURL:'https://amigo-api.herokuapp.com/'})
 
 
 export default Api;
